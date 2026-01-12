@@ -4,6 +4,6 @@
   "scripts": {
     "test": "python -m pytest -q",
     "test:watch": "ptw -- --quiet",
-    "test:focus": "python -m pytest -q -f"
+    "test:focus": "python -m pytest -q --lf"
   }
 }
