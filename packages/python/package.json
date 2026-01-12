@@ -1,0 +1,9 @@
+{
+  "name": "@dsa/py",
+  "private": true,
+  "scripts": {
+    "test": "python -m pytest -q",
+    "test:watch": "ptw -- --quiet",
+    "test:focus": "python -m pytest -q -f"
+  }
+}
