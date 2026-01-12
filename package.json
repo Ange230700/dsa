@@ -1,0 +1,17 @@
+{
+  "name": "dsa",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "pnpm test:ts && pnpm test:py && pnpm test:cpp",
+    "test:ts": "pnpm -C packages/ts test",
+    "test:py": "pnpm -C packages/py test",
+    "test:cpp": "pnpm -C packages/cpp test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.23.0"
+}
