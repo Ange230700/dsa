@@ -1,0 +1,9 @@
+{
+  "name": "@dsa/cpp",
+  "private": true,
+  "scripts": {
+    "configure": "cmake -S . -B build",
+    "build": "cmake --build build",
+    "test": "cmake -S . -B build -G Ninja -DCMAKE_CXX_COMPILER=clang-cl && cmake --build build && ctest --test-dir build --output-on-failure"
+  }
+}
